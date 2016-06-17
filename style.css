@@ -1,0 +1,215 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+main::after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+/*Header styles*/
+
+header {
+    height: 681px;
+    background: url("http://www.sanclementetimes.com/wp-content/uploads/2012/08/Namotu2007Card1-024EDITED.jpg");
+    background-size: cover;
+}
+.logo_image {
+    width: 8.3%;
+    margin-left: 22.6%;
+    margin-top: 8px;
+}
+.logo {
+    display: inline-block;
+}
+nav {
+    display: inline;
+}
+header h3 {
+    display: inline;
+    position: absolute;
+    top: 9px;
+    left: 15.3%;
+    font-size: 1.27em;
+}
+header ul {
+    font-family: 'Oswald', sans-serif;
+    list-style: none;
+    font-size: 1.4em;
+    margin-right: 11.7%;
+    float: right;
+}
+header li {
+    padding-right: 20px;
+    display: inline-block;
+}
+header h1 {
+    text-align: center;
+    font-size: 7.9em;
+    margin-top: 10.4%;
+    color: white;
+    opacity: .8;
+}
+header h4 {
+    text-align: center;
+    font-size: 1.23em;
+    margin-top: -105px;
+}
+header .i {
+    font-size: .99em;
+}
+
+/*
+Section stylings*/
+
+main {
+    width: 76%;
+    margin: 0 auto;
+}
+main h2 {
+    color: #083452;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5.02rem;
+    margin: 76px 0 0 17%;
+    line-height: 1.2;
+    text-align: left;
+}
+
+/*article Styling*/
+
+
+/*I had to change the second line to one font size biggger so i made an inline span*/
+
+article {
+    width: 60%;
+    float: left;
+}
+article h2 {
+    color: #083452;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5.02rem;
+    line-height: 94px;
+    margin-top: 78px;
+    margin-left: 2%;
+}
+article p {
+    line-height: 2;
+    margin-left: 2%;
+    font-size: 1.2rem;
+}
+.date {
+    margin-left: 2%;
+    margin-top: 5px;
+}
+.date img {
+    width: 5%;
+    vertical-align: middle;
+}
+article .name {
+    color: #0c6ab1;
+}
+article .greydate {
+    color: #B9C5CE;
+    text-decoration: underline;
+}
+.article_span {
+    text-decoration: underline;
+}
+article .radical {
+    color: #0c6ab1;
+    border-left: solid 3px #B9C5CE;
+    font-size: 2.3rem;
+    margin-left: 2%;
+    padding-left: 23px;
+}
+
+/*social media under article */
+
+.share a {
+    color: white;
+    background-color: #a3b3bf;
+    text-decoration: none;
+    padding: 8px;
+    text-align: center;
+}
+.comment {
+    color: white;
+    background-color: #5e686f;
+    padding: 7px;
+    margin-left: -2px;
+    height: 15px;
+}
+.upload {}
+.square {}
+
+/*aside/socialmedia stylings*/
+
+aside {
+    float: right;
+    width: 40%;
+}
+.social_media {
+    display: inline-block;
+}
+.social_media p {
+    font-size: 1.44rem;
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 52%;
+    margin-top: -8px;
+    letter-spacing: -1px;
+    color: #0c6ab1;
+}
+.social_media li {
+    display: inline-block;
+    padding-right: 11px;
+    color: #B9C5CE
+}
+.social_media ul {
+    font-size: 1.1rem;
+    margin-left: 32%;
+    margin-top: -3px;
+    letter-spacing: 0.1px;
+}
+
+/*aside ad stylings*/
+
+.aside_icon {
+    width: 27%;
+    margin-left: 51%;
+    margin-top: 92px;
+}
+.ad img {
+    padding-left: 29%;
+    width: 71%;
+    padding-top: 53px;
+}
+.ad a {
+    font-size: 1.1rem;
+    margin-left: 396px;
+    color: #B9C5CE
+}
+.sidebar h3 {
+    display: inline-block;
+    margin: 0px;
+    margin-top: 59px;
+    font-size: 1.4rem;
+    font-family: 'Oswald', sans-serif;
+    color: #0c6ab1;
+    margin-left: 29%;
+}
+.sidebar p {
+    margin-left: 29%;
+    width: 70%;
+    line-height: 25px;
+    font-size: 1rem;
+    margin-top: 5px;
+    color: #B9C5CE
+}
+.sidebar span {
+    text-decoration: underline;
+}
