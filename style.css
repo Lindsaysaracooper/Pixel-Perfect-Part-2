@@ -1,5 +1,4 @@
 body {
-    font-family: 'Oswald', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 main::after {
@@ -25,6 +24,9 @@ main::after {
   transform: scale(1.3);
 }
 
+.logo_image:hover{
+  opacity:.2;
+}
 .logo h3:hover{
   opacity:.2;
 }
@@ -125,6 +127,13 @@ article p {
 
 
 }
+
+.dateicon:hover {
+  opacity:.2;
+
+}
+
+
 .greydate:hover{
   color:blue;
 }
@@ -200,6 +209,10 @@ article .radical {
     background-color: #5e686f;
     padding: 6px;
     width: 14%;
+}
+
+.aside_icon:hover{
+  opacity:.2;
 }
 
 .later:hover{
@@ -297,6 +310,12 @@ aside {
     width: 27%;
     margin-left: 51%;
     margin-top: 92px;
+}
+
+.surfgirl:hover{
+  webkit-transform: scale(1.3);
+  ms-transform: scale(1.3);
+  transform: scale(1.3);
 }
 .ad img {
     padding-left: 29%;
